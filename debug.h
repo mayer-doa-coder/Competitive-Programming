@@ -56,5 +56,5 @@ void __show(priority_queue<T, U...> q) {
     _print(debugVector);
 }
 
-#define debug(x...) cerr << "[" << #x << "] = ["; _print(x)
+#define debug(x...) cerr << "[" << #x << "] = ["; __print(x)
 #define dbg(x...) cerr << "[" << #x << "] = ["; __show(x);
